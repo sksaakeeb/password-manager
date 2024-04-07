@@ -1,10 +1,16 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, StatusBar } from "react-native";
 import LoginScreen from "./screens/LoginScreen";
+import HomeScreen from "./screens/HomeScreen";
+import StackNavigator from "./StackNavigator";
 
 export default function App() {
   return (
     <>
-      <LoginScreen />
+      <View>
+        <StatusBar barStyle="light-content" />
+      </View>
+
+      <StackNavigator />
     </>
   );
 }
