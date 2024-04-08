@@ -19,14 +19,14 @@ const StackNavigator = () => {
           name="Home"
           component={HomeScreen}
           options={{
-            tabBarLabel: "Home",
+            tabBarLabel: "My Password",
             tabBarLabelStyle: { color: "gray", fontSize: 12 },
             headerShown: false,
             tabBarIcon: ({ focused }) =>
               focused ? (
-                <AntDesign name="home" size={25} color="black" />
+                <Feather name="home" size={24} color="#00ADB5" />
               ) : (
-                <AntDesign name="home" size={24} color="gray" />
+                <Feather name="home" size={24} color="gray" />
               ),
           }}
         />
@@ -40,9 +40,9 @@ const StackNavigator = () => {
             headerShown: false,
             tabBarIcon: ({ focused }) =>
               focused ? (
-                <AntDesign name="home" size={25} color="black" />
+                <AntDesign name="pluscircleo" size={24} color="#00ADB5" />
               ) : (
-                <AntDesign name="home" size={24} color="gray" />
+                <AntDesign name="pluscircleo" size={24} color="gray" />
               ),
           }}
         />
@@ -56,9 +56,9 @@ const StackNavigator = () => {
             headerShown: false,
             tabBarIcon: ({ focused }) =>
               focused ? (
-                <AntDesign name="home" size={25} color="black" />
+                <Feather name="settings" size={24} color="#00ADB5" />
               ) : (
-                <AntDesign name="home" size={24} color="gray" />
+                <Feather name="settings" size={24} color="black" />
               ),
           }}
         />
